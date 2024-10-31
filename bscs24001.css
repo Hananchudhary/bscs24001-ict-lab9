@@ -1,8 +1,57 @@
 body{
     font-size: 25px;
 }
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+#logo{
+    height: 100px;
+}
+.navigation{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.bar{
+    display: flex;
+}
+.intro-bar{
+    margin-right: 120px;
+}
 .intro{
     display: flex;
+    align-items: center;
+}
+.google{
+    padding: 32px;
+    padding-left: 34px;
+    margin-right: 120px;
+}
+.gmail{
+    padding: 5px;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lists{
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(153, 238, 84); 
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 85px;
 }
 .first-div{
     display: flex;
@@ -10,12 +59,34 @@ body{
     align-content: center;
     width: 500px;
     height: 500px;
-    background-color: yellow; 
+    background-color: rgb(197, 194, 22); 
     border-width: 3px;
     border-color: black;
+    border-style: solid;
     border-radius: 20%;
     margin: 10px;
     padding: 5px;
+    padding-left: 85px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+}
+.place{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(6, 26, 92); 
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    margin: 10px;
+    padding: 105px;
 }
 .normal-para{
     color: green;
