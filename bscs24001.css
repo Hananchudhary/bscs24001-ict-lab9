@@ -4,3 +4,16 @@ body{
 .intro{
     display: flex;
 }
+.first-div{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: yellow; 
+    border-width: 3px;
+    border-color: black;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 5px;
+}
